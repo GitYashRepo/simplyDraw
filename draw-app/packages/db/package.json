@@ -1,9 +1,9 @@
 {
-  "name": "@repo/backend-common",
+  "name": "db",
   "version": "1.0.0",
   "main": "index.js",
   "exports": {
-    "./config": "./src/index.ts"
+    "./client": "./src/index.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/node": "^22.13.10"
+    "@prisma/client": "6.5.0",
+    "prisma": "^6.5.0"
   }
 }
